@@ -5,7 +5,7 @@ module Easypay
     extend ActiveSupport::Concern
 
     included do
-      before_filter :test_controller_instance_method
+      before_action :test_controller_instance_method
     end
 
     def test_controller_instance_method
