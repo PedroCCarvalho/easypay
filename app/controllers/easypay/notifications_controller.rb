@@ -3,7 +3,7 @@ module Easypay
     
     unloadable
     
-    before_filter :register_notification
+    before_action :register_notification
   
     def simple_notification
       # c=PT&e=10611&r=810302231&v=7&l=PT&t_key=
